@@ -1,101 +1,88 @@
-# Stack Overflow Developer Survey: Data Wrangling, EDA & Data Visualization (Python)
+# Stack Overflow Developer Survey: Data Wrangling, EDA, Visualization & Dashboarding (Python)
 
-An end-to-end analytics portfolio project using Python and Jupyter notebooks to **clean, prepare, explore, and visualize survey data**.  
-This repository demonstrates a complete workflow commonly used in business and data analytics roles—from raw data issues to clear visual insights.
+An end-to-end analytics portfolio project using Python and Jupyter notebooks to **clean, explore, visualize, and summarize insights through dashboards**.  
+This repository demonstrates a complete workflow aligned with real-world business and data analytics practices.
 
 ---
 
 ## Project Overview
 
-This project uses the Stack Overflow Developer Survey dataset to showcase:
+This project uses survey and sales-style datasets to demonstrate:
 - Data wrangling and validation
-- Handling duplicates and missing data
+- Handling duplicates and missing values
 - Feature normalization
 - Exploratory Data Analysis (EDA)
-- Professional data visualization techniques
+- Professional data visualization
+- Simple dashboard design for executive-style insights
 
-The notebooks are organized into **lab-style modules** that build on each other.
+The notebooks are organized into **module-based labs**, each focusing on a core analytics skill.
 
 ---
 
 ## Module 2 — Data Wrangling
 
-Focus: preparing raw data for analysis
+**Focus:** Preparing raw data for analysis
 
-- **Finding Duplicates**  
-  Identify duplicate rows and understand their impact
-
-- **Removing Duplicates**  
-  Clean the dataset and verify results
-
-- **Finding Missing Values**  
-  Detect and quantify missing data across columns
-
-- **Impute Missing Values**  
-  Replace missing values using appropriate strategies (e.g., most frequent value)
-
-- **Normalizing Data**  
-  Scale numeric variables to prepare data for modeling and comparison
-
-- **Data Wrangling Lab**  
-  End-to-end workflow combining all wrangling steps
+- Finding duplicate records
+- Removing duplicates and validating results
+- Identifying missing values
+- Imputing missing values using appropriate strategies
+- Normalizing numeric data
+- End-to-end data wrangling lab
 
 ---
 
 ## Module 3 — Exploratory Data Analysis (EDA)
 
-Focus: understanding patterns and structure in the data
+**Focus:** Understanding structure, patterns, and distributions
 
-- **Finding How the Data Is Distributed**  
-  Analyze distributions, skewness, and spread
-
-- **Exploratory Data Analysis Notebook**  
-  Summary statistics, distribution analysis, and initial insights
-
-- **EDA Notes (TXT)**  
-  Supporting explanations and interpretations
+- Distribution analysis (spread, skew, frequency)
+- Summary statistics
+- Exploratory insights
+- Supporting EDA documentation
 
 ---
 
 ## Module 4 — Data Visualization
 
-Focus: communicating insights clearly and effectively
+**Focus:** Communicating insights clearly and effectively
 
-- **Bar Charts**  
-  Compare categorical values and frequencies
+Visualizations created using Python include:
 
-- **Line Charts**  
-  Analyze trends over time or ordered variables
+- Bar charts
+- Line charts
+- Stacked charts
+- Pie charts
+- Scatter plots
+- Bubble plots
+- Box plots
+- Histograms
 
-- **Stacked Charts**  
-  Compare distributions across groups
+These visuals are designed to highlight trends, comparisons, distributions, and relationships in the data.
 
-- **Pie Charts**  
-  Visualize proportions and category shares
+---
 
-- **Scatter Plots**  
-  Explore relationships between numeric variables
+## Module 5 — Dashboarding
 
-- **Bubble Plots**  
-  Visualize relationships using size as a third variable
+**Focus:** High-level insight communication for decision-making
 
-- **Box Plots**  
-  Compare distributions and identify outliers
+- **Simple Dashboard (PDF)**  
+  A consolidated dashboard presenting:
+  - Product line performance by year
+  - Quantity sold trends across categories
+  - Revenue summary metrics
 
-- **Histograms**  
-  Examine data distributions and frequency patterns
-
-All visualizations are created using Python libraries and follow data storytelling best practices.
+This module demonstrates how analytical findings can be transformed into **executive-friendly dashboards** that support strategic decisions rather than raw analysis alone.
 
 ---
 
 ## Dataset
 
-The notebooks load survey data from Skills Network / IBM-hosted CSV files:
-- `survey-data.csv`
-- `survey-data-with-duplicate.csv`
+The notebooks reference datasets hosted through Skills Network / IBM and supporting lab materials, including:
+- Survey datasets
+- Sales-style product performance data
 
-(Links are referenced directly inside the notebooks.)
+Links are embedded directly within the notebooks.
 
 ---
 
